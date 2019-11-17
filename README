@@ -1,0 +1,16 @@
+Log 4/15/2017
+Need to ask the TAs about some "WHY" questions in the ALU UVM lab's TLM
+Done the apb_rw.svh, but the constraints should be modified and improved. (Noted as TODO)
+Done the apb_if.svh, but need to make sure the directions (i.e. input or output) are correct
+Log 4/19/2017
+Done the driver, but the driving sequence might be a little too simple. Also has Q
+Since we are only using a basic sequencer, I do not think we need to do anything about the sequencer, am I right?
+(S) What is the "passive" vif in the monitor? - Should be related with the passive modport in apb_if, therefore I also add "master" on the driver side for vif
+Log 4/22/2017
+Some WHYs in the module.v, I do not understand when to use create and when to use new
+Log 4/25/2017
+Build Phase in Monitor Why? Why you need a super.run_phase(phase); in the run phase?
+(S) How does the subscriber accpet the input from the environment? Write Function
+Solve the dependency of the files (e.g. include something in the coverage file?)
+Writing some assertion and cover property???
+scoreboard - check what?
